@@ -1,41 +1,58 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>COntacts</title>
+	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	
 	<header>
-		<h1>Your Name</h1>
+		<div class="nav"><h1>Your Name</h1>
 			<div class="topright">
 				<ul>
-				<li id="about">About</li>
-				<li id="portfolio">Portfolio</li>
-				<li id="contact">Contact</li>
+				<li id="about"><a href="index.html">About</a></li>
+				<li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+				<li id="contact"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
+		</div>
 	</header>
+<div class="outer">
+	<div class="container">
+		<h2>Contact</h2>
 
 
-<h1>Contact Form</h1>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="name">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="Email">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<form>
+  Name:<br>
+  <input type="text" name="Name" value="John Smith">
+  <br>
+  Email:<br>
+  <input type="text" name="Email" value="something@gmail.com">
+  <br>
+	Message:<br>
+	<textarea name=“message”></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
 
-        <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something..></textarea>
+</form>
 
-    <input type="submit" value="Submit">
-  </form>
+	
+
+
+
+
 </div>
-
-
-
+	<section class="aside">
+		<h3>Connect with Me</h3>
+		<img src="assets/images/git.png" class="git">
+		<img src="assets/images/link.png" class="link">
+		<img src="assets/images/overflow.png" class="flow">
+	</section>
+</div>
+</div>
+<footer>&copy;Copyright 2017 Your Name</footer>
 
 </body>
 </html>

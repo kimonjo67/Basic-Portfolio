@@ -111,6 +111,7 @@ footer{
 	background-color: #666666;
 	padding: 30px;
 	width:100%;
+	text-align: center;
 }
 .imgcontainer{
 	width: 300px;
@@ -120,4 +121,16 @@ footer{
 	background-color: blue;
 	height: 200px;
 	width: 200px;
+}
+
+input[type=text]{
+	width:100%;
+	padding:10px 20px;
+	margin:8px 0;
+	box-sizing: border-box;
+}
+textarea{
+	width: 93%;
+	height: 300px;
+	padding: 20px;
 }
