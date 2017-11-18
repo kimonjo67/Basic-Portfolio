@@ -10,19 +10,24 @@ body{
 }
 header{
 	width: 100%;
-    height: 111px;
-    margin: auto;
-    border-bottom: solid;
+    height: 78px;
+    margin: 0 auto;
+    border-bottom: solid #cccccc;
     background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+
 }
 .nav{
 	width: 960px;
 	margin:0 auto;
+
 }
 
 .outer{
 	width: 960px;
-	margin:0 auto;
+	margin:100px auto;
 
 }
 h1{
@@ -76,10 +81,10 @@ ul{
 h2{
 	clear:both;
 	padding: 30px;
-	border-bottom: solid;
+	border-bottom: solid #cccccc;
 }
 h3{
-	border-bottom: solid;
+	border-bottom: solid #cccccc;
 }
 
 
@@ -111,8 +116,8 @@ footer{
 	width: 300px;
 	float: left;
 }
-
-/*.imgcontainer:nth-child(even){
-    float: right;
+#Hangman{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
 }
-*/
